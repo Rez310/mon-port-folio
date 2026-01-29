@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Régis Gomis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="matrix-bg"></canvas>
+
+    <nav>
+        <div class="logo">&lt;RegisGomis /&gt;</div>
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="competences.html">Compétences</a>
+            <a href="projets.html">Projets</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Initialiser la Communication</h1>
+        <div class="grid-container" style="grid-template-columns: 1fr 1fr;">
+            
+            <div>
+                <h3>Coordonnées</h3>
+                <p>Je suis disponible pour un stage ou une alternance.</p>
+                <br>
+                <p><strong>Email :</strong> regisgomis3@gmail.com</p>
+                <p><strong>Tel :</strong> 07 51 03 25 57</p>
+                <p><strong>Lieu :</strong> Paris, France</p>
+                <br>
+                <a href="https://github.com/Rez310" class="btn">Mon GitHub</a>
+            </div>
+
+            <div class="contact-form">
+                <form action="mailto:regisgomis3@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" placeholder="Nom du recruteur / Entreprise" name="nom">
+                    <input type="email" placeholder="Email de contact" name="email">
+                    <textarea rows="5" placeholder="Votre message..." name="message"></textarea>
+                    <button type="submit" class="btn">Envoyer le paquet</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
